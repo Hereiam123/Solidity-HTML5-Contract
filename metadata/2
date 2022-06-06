@@ -1,35 +1,6 @@
 {
-   "attributes" : [
-      {
-         "trait_type" : "level",
-         "value" : 3
-      },
-      {
-         "trait_type" : "stamina",
-         "value" : 11.7
-      },
-      {
-         "trait_type" : "personality",
-         "value" : "sleepy"
-      },
-      {
-         "display_type" : "boost_number",
-         "trait_type" : "aqua_power",
-         "value" : 30
-      },
-      {
-         "display_type" : "boost_percentage",
-         "trait_type" : "stamina_increase",
-         "value" : 15
-      },
-      {
-         "display_type" : "number",
-         "trait_type" : "generation",
-         "value" : 1
-      }
-   ],
-   "description" : "Friendly OpenSea Creature that enjoys long swims in the ocean.",
-   "external_url" : "https://example.com/?token_id=2",
-   "image" : "https://bafybeiddnebsbc3hfhdvoxp4m7qi4gdwunivy7xxg2euszecgraapnbnwm.ipfs.dweb.link/images/2.png",
-   "name" : "Boris McCoy"
+   "description" : "A simple two player dice game test.",
+   "image" : "https://bafybeidxhiemtzaiaklx7zlvdah6acnffjcwrstitubex2wwrdapsbpspq.ipfs.nftstorage.link/images/dice-game.png",
+   "animation_url":"https://bafybeifveedbani3vawuwqfoaig52s7d3s5ahvhdcrbbyykfy66fqebhbu.ipfs.nftstorage.link/html",
+   "name" : "Dice Down, Dice Up"
 }
