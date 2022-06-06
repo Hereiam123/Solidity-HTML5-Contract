@@ -13,7 +13,7 @@ task("check-balance", "Prints out the balance of your account").setAction(
 task("withdraw", "*** Transfer the ETH hold by the SC to the account")
 .setAction(async function (taskArguments, hre) {
     const account = getAccount();
-    const contract = await getContract("NFT", hre);
+    const contract = await getContract("HTMLNFT", hre);
     const transactionResponse = await contract.withdrawPayments(account.address,
     {
         gasLimit: 500_000,
@@ -26,7 +26,7 @@ task("deploy", "Deploys the NFT.sol contract").setAction(async function (
   hre
 ) {
   const nftContractFactory = await hre.ethers.getContractFactory(
-    "NFT",
+    "HTMLNFT",
     getAccount()
   );
   const nft = await nftContractFactory.deploy();

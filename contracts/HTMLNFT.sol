@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/security/PullPayment.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract NFT is ERC721, PullPayment, Ownable {
+contract HTMLNFT is ERC721, PullPayment, Ownable {
   using Counters for Counters.Counter;
 
   // Constants
@@ -19,7 +19,7 @@ contract NFT is ERC721, PullPayment, Ownable {
   /// @dev Base token URI used as a prefix by tokenURI().
   string public baseTokenURI;
 
-  constructor() ERC721("NFTTutorial", "NFT") {
+  constructor() ERC721("NFTHTML5Tutorial", "HTMLNFT") {
     baseTokenURI = "";
   }
 
